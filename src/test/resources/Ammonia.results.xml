@@ -1,135 +1,158 @@
-<RECONCILIATION ReconciledCost='71.672365819715' GlobalCriticalValue='16.9189776046205' RedundancyDegree='9'>
-<CONVERGENCE Converged='True'
+<RECONCILIATION ReconciledCost='71.67236581971376' GlobalCriticalValue='16.91897760462045' RedundancyDegree='9'>
+<CONVERGENCE Converged='true'
  Termination='Minimum precision'
- ConvergenceTime(ms)='90'
+ ConvergenceTime(ms)='3'
  Iterations='2'
- CalculatedPrecision='4.05880467097947E-10'
- CalculatedConvergence='1.52362049317123E-05'
+ CalculatedPrecision='4.058804665306349E-10'
+ CalculatedConvergence='1.5236204924606866E-5'
 
 <LOG
 '#Iteration=1
-  dPrecision=9.17060625940743E-05
-  dPrecisionChange=31925.1842013984
-  dCost=0.384810197498729
+  dPrecision=0.0018291276195160488
+  dPrecisionChange=0.017415649023678148
+  dCost=0.026256954550276254
   dCostChange=Infinity
   ActivateLinearInequalities=0
   ActivateNonlinearInequalities=0
 Action=  Retaining values
 #Iteration=2
-  dPrecision=4.05880467097947E-10
-  dPrecisionChange=4.42588478467915E-06
-  dCost=0.384816060545758
-  dCostChange=1.52362049317123E-05
+  dPrecision=1.565760757976214E-7
+  dPrecisionChange=8.560150430566915E-5
+  dCost=0.02601712154956001
+  dCostChange=0.009134075326863167
   ActivateLinearInequalities=0
   ActivateNonlinearInequalities=0
 Action=  Checking for inequalities
 #Iteration=2
-  dPrecision=4.05880467097947E-10
-  dPrecisionChange=4.42588478467915E-06
-  dCost=0.384816060545758
-  dCostChange=1.52362049317123E-05
+  dPrecision=1.565760757976214E-7
+  dPrecisionChange=8.560150430566915E-5
+  dCost=0.02601712154956001
+  dCostChange=0.009134075326863167
+  ActivateLinearInequalities=0
+  ActivateNonlinearInequalities=0
+#Iteration=1
+  dPrecision=9.170606259690252E-5
+  dPrecisionChange=31925.184202382952
+  dCost=0.3848101974987287
+  dCostChange=Infinity
+  ActivateLinearInequalities=0
+  ActivateNonlinearInequalities=0
+Action=  Retaining values
+#Iteration=2
+  dPrecision=4.058804665306349E-10
+  dPrecisionChange=4.4258847783564525E-6
+  dCost=0.38481606054575485
+  dCostChange=1.5236204924606866E-5
+  ActivateLinearInequalities=0
+  ActivateNonlinearInequalities=0
+Action=  Checking for inequalities
+#Iteration=2
+  dPrecision=4.058804665306349E-10
+  dPrecisionChange=4.4258847783564525E-6
+  dCost=0.38481606054575485
+  dCostChange=1.5236204924606866E-5
   ActivateLinearInequalities=0
   ActivateNonlinearInequalities=0
 '/></CONVERGENCE>
-<CONSTRAINTS ConstraintCriticalValue='1.39982372546247' Total='39' Linear='14' Nonlinear='3' ActiveLinearInequality='0' ActiveNonlinearInequality='0'>
-<CONSTRAINT Constraint='$D$18=$F$18' Active='True' ReconciledResidual='1.50768286744096E-13' MeasuredResidual='-0.00567737167515414' ReconciledDeviation='0.0227622303024259' MeasuredTest='-0.235209299253052' ConstraintTest='-0.249420711403182'><SERIALIZE Constraint='([Stream6_N]=[(SplitterEff*Stream5_N)])'/><TRACE Constraint='([1.38709651317853]=[(0.0199184738924667*69.6386942426843)])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$H$18=$J$18' Active='True' ReconciledResidual='-4.20996570937859E-13' MeasuredResidual='-0.0293973859269636' ReconciledDeviation='0.0745718196489233' MeasuredTest='-0.376168421643036' ConstraintTest='-0.3942157515448'><SERIALIZE Constraint='([Stream6_H]=[(SplitterEff*Stream5_H)])'/><TRACE Constraint='([4.07060261407304]=[(0.0199184738924667*204.363177422593)])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$L$18=$N$18' Active='True' ReconciledResidual='-3.90613097422943E-11' MeasuredResidual='-0.00164202415289527' ReconciledDeviation='0.00566878693744075' MeasuredTest='-0.268025670658065' ConstraintTest='-0.289660587179624'><SERIALIZE Constraint='([Stream6_A]=[(SplitterEff*Stream5_A)])'/><TRACE Constraint='([0.401179639610217]=[(0.0199184738924667*20.1410831881556)])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$H$17=$J$17' Active='True' ReconciledResidual='0' MeasuredResidual='0.636822577407486' ReconciledDeviation='2.86910726251747' MeasuredTest='0.221879921376039' ConstraintTest='0.221958441821625'><SERIALIZE Constraint='([Stream5_H]=[(Stream6_H+Stream7_H)])'/><TRACE Constraint='([204.363177422593]=[(4.07060261407304+200.292574808519)])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$L$17=$N$17' Active='True' ReconciledResidual='0' MeasuredResidual='0' ReconciledDeviation='0.230395135496285' MeasuredTest='0' ConstraintTest='0'><SERIALIZE Constraint='([Stream5_A]=[(Stream6_A+Stream7_A)])'/><TRACE Constraint='([20.1410831881556]=[(0.401179639610217+19.7399035485454)])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$L$14=$N$14' Active='True' ReconciledResidual='0' MeasuredResidual='-0.0600964514545979' ReconciledDeviation='0.230395135496285' MeasuredTest='-0.233409732922296' ConstraintTest='-0.260840799981069'><SERIALIZE Constraint='([(Stream1_A+Stream7_A)]=[Stream2_A])'/><TRACE Constraint='([(0.401179639610218+19.7399035485454)]=[20.1410831881556])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$H$15=$J$15' Active='True' ReconciledResidual='5.6843418860808E-14' MeasuredResidual='5.6843418860808E-14' ReconciledDeviation='2.97940667556376' MeasuredTest='1.90787713966749E-14' ConstraintTest='1.90787713966749E-14'><SERIALIZE Constraint='([Stream2_H]=[(Stream3_H+(3*ReactorEff))])'/><TRACE Constraint='([295.291525623243]=[(204.363177422593+(3*30.3094494002168))])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$D$17=$F$17' Active='True' ReconciledResidual='-1.4210854715202E-14' MeasuredResidual='-1.4210854715202E-14' ReconciledDeviation='0.800560942087705' MeasuredTest='-1.77511217049172E-14' ConstraintTest='-1.77511217049172E-14'><SERIALIZE Constraint='([Stream5_N]=[(Stream6_N+Stream7_N)])'/><TRACE Constraint='([69.6386942426843]=[(1.38709651317853+68.2515977295058)])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$D$15=$F$15' Active='True' ReconciledResidual='1.4210854715202E-14' MeasuredResidual='1.69055059978315' ReconciledDeviation='0.83058867737409' MeasuredTest='1.37752192865734' ConstraintTest='2.03536436967554'><SERIALIZE Constraint='([Stream2_N]=[(Stream3_N+ReactorEff)])'/><TRACE Constraint='([99.9481436429012]=[(69.6386942426843+30.3094494002168)])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$D$14=$F$14' Active='True' ReconciledResidual='0' MeasuredResidual='0.251597729505789' ReconciledDeviation='0.822612262135757' MeasuredTest='0.212342065217339' ConstraintTest='0.305852150626303'><SERIALIZE Constraint='([(Stream1_N+Stream7_N)]=[Stream2_N])'/><TRACE Constraint='([(31.6965459133954+68.2515977295058)]=[99.9481436429012])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$H$14=$J$14' Active='True' ReconciledResidual='5.6843418860808E-14' MeasuredResidual='-5.99895081472363' ReconciledDeviation='2.95172237788174' MeasuredTest='-1.97410244870376' ConstraintTest='-2.03235604394092'><SERIALIZE Constraint='([(Stream1_H+Stream7_H)]=[Stream2_H])'/><TRACE Constraint='([(94.9989508147237+200.292574808519)]=[295.291525623243])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$P$16=$R$16' Active='True' ReconciledResidual='0' MeasuredResidual='-1.3811011995663' ReconciledDeviation='0.490053592222685' MeasuredTest='-1.94448740712662' ConstraintTest='-2.81826563764625'><SERIALIZE Constraint='([Stream3_NH]=[Stream4_NH])'/><TRACE Constraint='([60.6188988004337]=[60.6188988004337])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$H$16=$J$16' Active='True' ReconciledResidual='0' MeasuredResidual='-0.636822577407486' ReconciledDeviation='2.89712710449415' MeasuredTest='-0.219735484581621' ConstraintTest='-0.219811749515449'><SERIALIZE Constraint='([Stream3_H]=[Stream5_H])'/><TRACE Constraint='([204.363177422593]=[204.363177422593])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$P$15=$R$15' Active='True' ReconciledResidual='0' MeasuredResidual='0' ReconciledDeviation='0.490053592222685' MeasuredTest='0' ConstraintTest='0'><SERIALIZE Constraint='([0]=[(Stream3_NH-(2*ReactorEff))])'/><TRACE Constraint='([0]=[(60.6188988004337-(2*30.3094494002168))])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$D$16=$F$16' Active='True' ReconciledResidual='0' MeasuredResidual='-0.638694242684309' ReconciledDeviation='0.808358881527443' MeasuredTest='-0.712825714081398' ConstraintTest='-0.790112235146669'><SERIALIZE Constraint='([Stream3_N]=[Stream5_N])'/><TRACE Constraint='([69.6386942426843]=[69.6386942426843])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$L$15=$N$15' Active='True' ReconciledResidual='0' MeasuredResidual='0.0589168118443801' ReconciledDeviation='0.231497107403099' MeasuredTest='0.227963743667795' ConstraintTest='0.254503447171761'><SERIALIZE Constraint='([Stream2_A]=[Stream3_A])'/><TRACE Constraint='([20.1410831881556]=[20.1410831881556])'/></CONSTRAINT>
-<CONSTRAINT Constraint='$L$16=$N$16' Active='True' ReconciledResidual='0' MeasuredResidual='0' ReconciledDeviation='0.231497107403099' MeasuredTest='0' ConstraintTest='0'><SERIALIZE Constraint='([Stream3_A]=[Stream5_A])'/><TRACE Constraint='([20.1410831881556]=[20.1410831881556])'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream1_A>=0' Active='False' ReconciledResidual='0.401179639610218' MeasuredResidual='0.4' ReconciledDeviation='0' MeasuredTest='4000' ConstraintTest='4000'><SERIALIZE Constraint='(Stream1_A>=0.0)'/><TRACE Constraint='(0.401179639610218>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream2_A>=0' Active='False' ReconciledResidual='20.1410831881556' MeasuredResidual='20.2' ReconciledDeviation='0' MeasuredTest='202000' ConstraintTest='202000'><SERIALIZE Constraint='(Stream2_A>=0.0)'/><TRACE Constraint='(20.1410831881556>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream7_H>=0' Active='False' ReconciledResidual='200.292574808519' MeasuredResidual='200.292574808519' ReconciledDeviation='0' MeasuredTest='2002925.74808519' ConstraintTest='2002925.74808519'><SERIALIZE Constraint='(Stream7_H>=0.0)'/><TRACE Constraint='(200.292574808519>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream5_H>=0' Active='False' ReconciledResidual='204.363177422593' MeasuredResidual='205' ReconciledDeviation='0' MeasuredTest='2050000' ConstraintTest='2050000'><SERIALIZE Constraint='(Stream5_H>=0.0)'/><TRACE Constraint='(204.363177422593>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream6_H>=0' Active='False' ReconciledResidual='4.07060261407304' MeasuredResidual='4.07060261407304' ReconciledDeviation='0' MeasuredTest='40706.0261407304' ConstraintTest='40706.0261407304'><SERIALIZE Constraint='(Stream6_H>=0.0)'/><TRACE Constraint='(4.07060261407304>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream3_A>=0' Active='False' ReconciledResidual='20.1410831881556' MeasuredResidual='20.1410831881556' ReconciledDeviation='0' MeasuredTest='201410.831881556' ConstraintTest='201410.831881556'><SERIALIZE Constraint='(Stream3_A>=0.0)'/><TRACE Constraint='(20.1410831881556>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream3_NH>=0' Active='False' ReconciledResidual='60.6188988004337' MeasuredResidual='60.6188988004337' ReconciledDeviation='0' MeasuredTest='606188.988004337' ConstraintTest='606188.988004337'><SERIALIZE Constraint='(Stream3_NH>=0.0)'/><TRACE Constraint='(60.6188988004337>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream4_NH>=0' Active='False' ReconciledResidual='60.6188988004337' MeasuredResidual='62' ReconciledDeviation='0' MeasuredTest='620000' ConstraintTest='620000'><SERIALIZE Constraint='(Stream4_NH>=0.0)'/><TRACE Constraint='(60.6188988004337>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream7_A>=0' Active='False' ReconciledResidual='19.7399035485454' MeasuredResidual='19.7399035485454' ReconciledDeviation='0' MeasuredTest='197399.035485454' ConstraintTest='197399.035485454'><SERIALIZE Constraint='(Stream7_A>=0.0)'/><TRACE Constraint='(19.7399035485454>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream5_A>=0' Active='False' ReconciledResidual='20.1410831881556' MeasuredResidual='20.1410831881556' ReconciledDeviation='0' MeasuredTest='201410.831881556' ConstraintTest='201410.831881556'><SERIALIZE Constraint='(Stream5_A>=0.0)'/><TRACE Constraint='(20.1410831881556>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream6_A>=0' Active='False' ReconciledResidual='0.401179639610217' MeasuredResidual='0.401179639610217' ReconciledDeviation='0' MeasuredTest='4011.79639610217' ConstraintTest='4011.79639610217'><SERIALIZE Constraint='(Stream6_A>=0.0)'/><TRACE Constraint='(0.401179639610217>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream5_N>=0' Active='False' ReconciledResidual='69.6386942426843' MeasuredResidual='69.6386942426843' ReconciledDeviation='0' MeasuredTest='696386.942426843' ConstraintTest='696386.942426843'><SERIALIZE Constraint='(Stream5_N>=0.0)'/><TRACE Constraint='(69.6386942426843>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream6_N>=0' Active='False' ReconciledResidual='1.38709651317853' MeasuredResidual='1.38709651317853' ReconciledDeviation='0' MeasuredTest='13870.9651317853' ConstraintTest='13870.9651317853'><SERIALIZE Constraint='(Stream6_N>=0.0)'/><TRACE Constraint='(1.38709651317853>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream3_N>=0' Active='False' ReconciledResidual='69.6386942426843' MeasuredResidual='69' ReconciledDeviation='0' MeasuredTest='690000' ConstraintTest='690000'><SERIALIZE Constraint='(Stream3_N>=0.0)'/><TRACE Constraint='(69.6386942426843>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream1_N>=0' Active='False' ReconciledResidual='31.6965459133954' MeasuredResidual='33' ReconciledDeviation='0' MeasuredTest='330000' ConstraintTest='330000'><SERIALIZE Constraint='(Stream1_N>=0.0)'/><TRACE Constraint='(31.6965459133954>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream2_N>=0' Active='False' ReconciledResidual='99.9481436429012' MeasuredResidual='101' ReconciledDeviation='0' MeasuredTest='1010000' ConstraintTest='1010000'><SERIALIZE Constraint='(Stream2_N>=0.0)'/><TRACE Constraint='(99.9481436429012>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream7_N>=0' Active='False' ReconciledResidual='68.2515977295058' MeasuredResidual='68.2515977295058' ReconciledDeviation='0' MeasuredTest='682515.977295058' ConstraintTest='682515.977295058'><SERIALIZE Constraint='(Stream7_N>=0.0)'/><TRACE Constraint='(68.2515977295058>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream2_H>=0' Active='False' ReconciledResidual='295.291525623243' MeasuredResidual='295.291525623243' ReconciledDeviation='0' MeasuredTest='2952915.25623243' ConstraintTest='2952915.25623243'><SERIALIZE Constraint='(Stream2_H>=0.0)'/><TRACE Constraint='(295.291525623243>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream3_H>=0' Active='False' ReconciledResidual='204.363177422593' MeasuredResidual='204.363177422593' ReconciledDeviation='0' MeasuredTest='2043631.77422593' ConstraintTest='2043631.77422593'><SERIALIZE Constraint='(Stream3_H>=0.0)'/><TRACE Constraint='(204.363177422593>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='Stream1_H>=0' Active='False' ReconciledResidual='94.9989508147237' MeasuredResidual='89' ReconciledDeviation='0' MeasuredTest='890000' ConstraintTest='890000'><SERIALIZE Constraint='(Stream1_H>=0.0)'/><TRACE Constraint='(94.9989508147237>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='ReactorEff>=0' Active='False' ReconciledResidual='30.3094494002168' MeasuredResidual='30.3094494002168' ReconciledDeviation='0' MeasuredTest='303094.494002168' ConstraintTest='303094.494002168'><SERIALIZE Constraint='(ReactorEff>=0.0)'/><TRACE Constraint='(30.3094494002168>=0.0)'/></CONSTRAINT>
-<CONSTRAINT Constraint='SplitterEff>=0' Active='False' ReconciledResidual='0.0199184738924667' MeasuredResidual='0.02' ReconciledDeviation='0' MeasuredTest='200' ConstraintTest='200'><SERIALIZE Constraint='(SplitterEff>=0.0)'/><TRACE Constraint='(0.0199184738924667>=0.0)'/></CONSTRAINT>
+<CONSTRAINTS ConstraintCriticalValue='1.3998237254624681' Total='39' Linear='14' Nonlinear='3' ActiveLinearInequality='0' ActiveNonlinearInequality='0'>
+<CONSTRAINT Constraint='$D$18=$F$18' Active='true' ReconciledResidual='1.5076828674409626E-13' MeasuredResidual='-0.005677371675151699' ReconciledDeviation='0.022762230302425857' MeasuredTest='-0.23520929925295128' ConstraintTest='-0.24942071140307548'><SERIALIZE Constraint='([Stream6_N]=[(SplitterEff*Stream5_N)])'/><TRACE Constraint='([1.3870965131785349]=[(0.019918473892466777*69.63869424268432)])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$H$18=$J$18' Active='true' ReconciledResidual='-4.2010839251815923E-13' MeasuredResidual='-0.029397385926954733' ReconciledDeviation='0.07457181964892316' MeasuredTest='-0.3761684216429226' ConstraintTest='-0.3942157515446821'><SERIALIZE Constraint='([Stream6_H]=[(SplitterEff*Stream5_H)])'/><TRACE Constraint='([4.070602614073045]=[(0.019918473892466777*204.3631774225925)])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$L$18=$N$18' Active='true' ReconciledResidual='-3.906130974229427E-11' MeasuredResidual='-0.0016420241528944945' ReconciledDeviation='0.005668786937440783' MeasuredTest='-0.26802567065793653' ConstraintTest='-0.2896605871794855'><SERIALIZE Constraint='([Stream6_A]=[(SplitterEff*Stream5_A)])'/><TRACE Constraint='([0.4011796396102187]=[(0.019918473892466777*20.14108318815566)])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$D$14=$F$14' Active='true' ReconciledResidual='1.4210854715202004E-14' MeasuredResidual='0.2515977295058036' ReconciledDeviation='0.8226122621357573' MeasuredTest='0.2123420652173505' ConstraintTest='0.30585215062632015'><SERIALIZE Constraint='([(Stream1_N+Stream7_N)]=[Stream2_N])'/><TRACE Constraint='([(31.696545913395386+68.2515977295058)]=[99.94814364290117])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$D$15=$F$15' Active='true' ReconciledResidual='-1.4210854715202004E-14' MeasuredResidual='1.690550599783137' ReconciledDeviation='0.8305886773740903' MeasuredTest='1.3775219286573313' ConstraintTest='2.0353643696755173'><SERIALIZE Constraint='([Stream2_N]=[(Stream3_N+ReactorEff)])'/><TRACE Constraint='([99.94814364290117]=[(69.63869424268432+30.309449400216863)])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$D$17=$F$17' Active='true' ReconciledResidual='-1.4210854715202004E-14' MeasuredResidual='-1.4210854715202004E-14' ReconciledDeviation='0.8005609420877048' MeasuredTest='-1.775112170491718E-14' ConstraintTest='-1.775112170491718E-14'><SERIALIZE Constraint='([Stream5_N]=[(Stream6_N+Stream7_N)])'/><TRACE Constraint='([69.63869424268432]=[(1.3870965131785349+68.2515977295058)])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$H$14=$J$14' Active='true' ReconciledResidual='1.1368683772161603E-13' MeasuredResidual='-5.998950814723571' ReconciledDeviation='2.9517223778817443' MeasuredTest='-1.974102448703744' ConstraintTest='-2.032356043940901'><SERIALIZE Constraint='([(Stream1_H+Stream7_H)]=[Stream2_H])'/><TRACE Constraint='([(94.99895081472363+200.2925748085195)]=[295.29152562324305])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$H$15=$J$15' Active='true' ReconciledResidual='-5.6843418860808015E-14' MeasuredResidual='-5.6843418860808015E-14' ReconciledDeviation='2.9794066755637627' MeasuredTest='-1.9078771396674847E-14' ConstraintTest='-1.9078771396674847E-14'><SERIALIZE Constraint='([Stream2_H]=[(Stream3_H+(3*ReactorEff))])'/><TRACE Constraint='([295.29152562324305]=[(204.3631774225925+(3*30.309449400216863))])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$H$17=$J$17' Active='true' ReconciledResidual='-2.8421709430404007E-14' MeasuredResidual='0.6368225774074574' ReconciledDeviation='2.8691072625174723' MeasuredTest='0.2218799213760288' ConstraintTest='0.22195844182161498'><SERIALIZE Constraint='([Stream5_H]=[(Stream6_H+Stream7_H)])'/><TRACE Constraint='([204.3631774225925]=[(4.070602614073045+200.2925748085195)])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$L$14=$N$14' Active='true' ReconciledResidual='-3.552713678800501E-15' MeasuredResidual='-0.06009645145456233' ReconciledDeviation='0.23039513549628762' MeasuredTest='-0.23340973292215664' ConstraintTest='-0.2608407999809122'><SERIALIZE Constraint='([(Stream1_A+Stream7_A)]=[Stream2_A])'/><TRACE Constraint='([(0.40117963961021713+19.73990354854544)]=[20.14108318815566])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$L$17=$N$17' Active='true' ReconciledResidual='0.0' MeasuredResidual='0.0' ReconciledDeviation='0.23039513549628768' MeasuredTest='0.0' ConstraintTest='0.0'><SERIALIZE Constraint='([Stream5_A]=[(Stream6_A+Stream7_A)])'/><TRACE Constraint='([20.14108318815566]=[(0.4011796396102187+19.73990354854544)])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$D$16=$F$16' Active='true' ReconciledResidual='0.0' MeasuredResidual='-0.6386942426843234' ReconciledDeviation='0.8083588815274432' MeasuredTest='-0.712825714081414' ConstraintTest='-0.7901122351466862'><SERIALIZE Constraint='([Stream3_N]=[Stream5_N])'/><TRACE Constraint='([69.63869424268432]=[69.63869424268432])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$H$16=$J$16' Active='true' ReconciledResidual='0.0' MeasuredResidual='-0.6368225774074858' ReconciledDeviation='2.897127104494151' MeasuredTest='-0.2197354845816211' ConstraintTest='-0.21981174951544882'><SERIALIZE Constraint='([Stream3_H]=[Stream5_H])'/><TRACE Constraint='([204.3631774225925]=[204.3631774225925])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$L$15=$N$15' Active='true' ReconciledResidual='0.0' MeasuredResidual='0.058916811844341055' ReconciledDeviation='0.2314971074031014' MeasuredTest='0.2279637436676428' ConstraintTest='0.25450344717158974'><SERIALIZE Constraint='([Stream2_A]=[Stream3_A])'/><TRACE Constraint='([20.14108318815566]=[20.14108318815566])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$L$16=$N$16' Active='true' ReconciledResidual='0.0' MeasuredResidual='0.0' ReconciledDeviation='0.23149710740310142' MeasuredTest='0.0' ConstraintTest='0.0'><SERIALIZE Constraint='([Stream3_A]=[Stream5_A])'/><TRACE Constraint='([20.14108318815566]=[20.14108318815566])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$P$15=$R$15' Active='true' ReconciledResidual='0.0' MeasuredResidual='0.0' ReconciledDeviation='0.49005359222268485' MeasuredTest='0.0' ConstraintTest='0.0'><SERIALIZE Constraint='([0]=[(Stream3_NH-(2*ReactorEff))])'/><TRACE Constraint='([0]=[(60.618898800433726-(2*30.309449400216863))])'/></CONSTRAINT>
+<CONSTRAINT Constraint='$P$16=$R$16' Active='true' ReconciledResidual='0.0' MeasuredResidual='-1.3811011995662739' ReconciledDeviation='0.4900535922226848' MeasuredTest='-1.9444874071265774' ConstraintTest='-2.8182656376461965'><SERIALIZE Constraint='([Stream3_NH]=[Stream4_NH])'/><TRACE Constraint='([60.618898800433726]=[60.618898800433726])'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream1_N>=0' Active='false' ReconciledResidual='31.696545913395386' MeasuredResidual='33.0' ReconciledDeviation='0.0' MeasuredTest='330000.0' ConstraintTest='330000.0'><SERIALIZE Constraint='(Stream1_N>=0.0)'/><TRACE Constraint='(31.696545913395386>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream2_N>=0' Active='false' ReconciledResidual='99.94814364290117' MeasuredResidual='101.0' ReconciledDeviation='0.0' MeasuredTest='1010000.0' ConstraintTest='1010000.0'><SERIALIZE Constraint='(Stream2_N>=0.0)'/><TRACE Constraint='(99.94814364290117>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream3_N>=0' Active='false' ReconciledResidual='69.63869424268432' MeasuredResidual='69.0' ReconciledDeviation='0.0' MeasuredTest='690000.0' ConstraintTest='690000.0'><SERIALIZE Constraint='(Stream3_N>=0.0)'/><TRACE Constraint='(69.63869424268432>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream5_N>=0' Active='false' ReconciledResidual='69.63869424268432' MeasuredResidual='69.63869424268432' ReconciledDeviation='0.0' MeasuredTest='696386.9424268432' ConstraintTest='696386.9424268432'><SERIALIZE Constraint='(Stream5_N>=0.0)'/><TRACE Constraint='(69.63869424268432>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream6_N>=0' Active='false' ReconciledResidual='1.3870965131785349' MeasuredResidual='1.3870965131785349' ReconciledDeviation='0.0' MeasuredTest='13870.965131785348' ConstraintTest='13870.965131785348'><SERIALIZE Constraint='(Stream6_N>=0.0)'/><TRACE Constraint='(1.3870965131785349>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream7_N>=0' Active='false' ReconciledResidual='68.2515977295058' MeasuredResidual='68.2515977295058' ReconciledDeviation='0.0' MeasuredTest='682515.977295058' ConstraintTest='682515.977295058'><SERIALIZE Constraint='(Stream7_N>=0.0)'/><TRACE Constraint='(68.2515977295058>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='ReactorEff>=0' Active='false' ReconciledResidual='30.309449400216863' MeasuredResidual='30.309449400216863' ReconciledDeviation='0.0' MeasuredTest='303094.4940021686' ConstraintTest='303094.4940021686'><SERIALIZE Constraint='(ReactorEff>=0.0)'/><TRACE Constraint='(30.309449400216863>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='SplitterEff>=0' Active='false' ReconciledResidual='0.019918473892466777' MeasuredResidual='0.02' ReconciledDeviation='0.0' MeasuredTest='200.0' ConstraintTest='200.0'><SERIALIZE Constraint='(SplitterEff>=0.0)'/><TRACE Constraint='(0.019918473892466777>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream1_H>=0' Active='false' ReconciledResidual='94.99895081472363' MeasuredResidual='89.0' ReconciledDeviation='0.0' MeasuredTest='890000.0' ConstraintTest='890000.0'><SERIALIZE Constraint='(Stream1_H>=0.0)'/><TRACE Constraint='(94.99895081472363>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream2_H>=0' Active='false' ReconciledResidual='295.29152562324305' MeasuredResidual='295.29152562324305' ReconciledDeviation='0.0' MeasuredTest='2952915.25623243' ConstraintTest='2952915.25623243'><SERIALIZE Constraint='(Stream2_H>=0.0)'/><TRACE Constraint='(295.29152562324305>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream3_H>=0' Active='false' ReconciledResidual='204.3631774225925' MeasuredResidual='204.3631774225925' ReconciledDeviation='0.0' MeasuredTest='2043631.774225925' ConstraintTest='2043631.774225925'><SERIALIZE Constraint='(Stream3_H>=0.0)'/><TRACE Constraint='(204.3631774225925>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream5_H>=0' Active='false' ReconciledResidual='204.3631774225925' MeasuredResidual='205.0' ReconciledDeviation='0.0' MeasuredTest='2050000.0' ConstraintTest='2050000.0'><SERIALIZE Constraint='(Stream5_H>=0.0)'/><TRACE Constraint='(204.3631774225925>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream6_H>=0' Active='false' ReconciledResidual='4.070602614073045' MeasuredResidual='4.070602614073045' ReconciledDeviation='0.0' MeasuredTest='40706.02614073045' ConstraintTest='40706.02614073045'><SERIALIZE Constraint='(Stream6_H>=0.0)'/><TRACE Constraint='(4.070602614073045>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream7_H>=0' Active='false' ReconciledResidual='200.2925748085195' MeasuredResidual='200.2925748085195' ReconciledDeviation='0.0' MeasuredTest='2002925.748085195' ConstraintTest='2002925.748085195'><SERIALIZE Constraint='(Stream7_H>=0.0)'/><TRACE Constraint='(200.2925748085195>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream1_A>=0' Active='false' ReconciledResidual='0.40117963961021713' MeasuredResidual='0.4' ReconciledDeviation='0.0' MeasuredTest='4000.0' ConstraintTest='4000.0'><SERIALIZE Constraint='(Stream1_A>=0.0)'/><TRACE Constraint='(0.40117963961021713>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream2_A>=0' Active='false' ReconciledResidual='20.14108318815566' MeasuredResidual='20.2' ReconciledDeviation='0.0' MeasuredTest='201999.99999999997' ConstraintTest='201999.99999999997'><SERIALIZE Constraint='(Stream2_A>=0.0)'/><TRACE Constraint='(20.14108318815566>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream3_A>=0' Active='false' ReconciledResidual='20.14108318815566' MeasuredResidual='20.14108318815566' ReconciledDeviation='0.0' MeasuredTest='201410.83188155657' ConstraintTest='201410.83188155657'><SERIALIZE Constraint='(Stream3_A>=0.0)'/><TRACE Constraint='(20.14108318815566>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream5_A>=0' Active='false' ReconciledResidual='20.14108318815566' MeasuredResidual='20.14108318815566' ReconciledDeviation='0.0' MeasuredTest='201410.83188155657' ConstraintTest='201410.83188155657'><SERIALIZE Constraint='(Stream5_A>=0.0)'/><TRACE Constraint='(20.14108318815566>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream6_A>=0' Active='false' ReconciledResidual='0.4011796396102187' MeasuredResidual='0.4011796396102187' ReconciledDeviation='0.0' MeasuredTest='4011.7963961021865' ConstraintTest='4011.7963961021865'><SERIALIZE Constraint='(Stream6_A>=0.0)'/><TRACE Constraint='(0.4011796396102187>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream7_A>=0' Active='false' ReconciledResidual='19.73990354854544' MeasuredResidual='19.73990354854544' ReconciledDeviation='0.0' MeasuredTest='197399.03548545437' ConstraintTest='197399.03548545437'><SERIALIZE Constraint='(Stream7_A>=0.0)'/><TRACE Constraint='(19.73990354854544>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream3_NH>=0' Active='false' ReconciledResidual='60.618898800433726' MeasuredResidual='60.618898800433726' ReconciledDeviation='0.0' MeasuredTest='606188.9880043372' ConstraintTest='606188.9880043372'><SERIALIZE Constraint='(Stream3_NH>=0.0)'/><TRACE Constraint='(60.618898800433726>=0.0)'/></CONSTRAINT>
+<CONSTRAINT Constraint='Stream4_NH>=0' Active='false' ReconciledResidual='60.618898800433726' MeasuredResidual='62.0' ReconciledDeviation='0.0' MeasuredTest='620000.0' ConstraintTest='620000.0'><SERIALIZE Constraint='(Stream4_NH>=0.0)'/><TRACE Constraint='(60.618898800433726>=0.0)'/></CONSTRAINT>
 </CONSTRAINTS>
 <DEPENDENTS NumberDependents='34'>
-<DEPENDENT Cell='$D$14' Evaluation='99.9481436429012'><SERIALIZE Dependent='(Stream1_N+Stream7_N)'/><TRACE Dependent='(31.6965459133954+68.2515977295058)'/></DEPENDENT>
-<DEPENDENT Cell='$F$14' Evaluation='99.9481436429012'><SERIALIZE Dependent='Stream2_N'/><TRACE Dependent='99.9481436429012'/></DEPENDENT>
-<DEPENDENT Cell='$D$15' Evaluation='99.9481436429012'><SERIALIZE Dependent='Stream2_N'/><TRACE Dependent='99.9481436429012'/></DEPENDENT>
-<DEPENDENT Cell='$F$15' Evaluation='99.9481436429012'><SERIALIZE Dependent='(Stream3_N+ReactorEff)'/><TRACE Dependent='(69.6386942426843+30.3094494002168)'/></DEPENDENT>
-<DEPENDENT Cell='$D$16' Evaluation='69.6386942426843'><SERIALIZE Dependent='Stream3_N'/><TRACE Dependent='69.6386942426843'/></DEPENDENT>
-<DEPENDENT Cell='$F$16' Evaluation='69.6386942426843'><SERIALIZE Dependent='Stream5_N'/><TRACE Dependent='69.6386942426843'/></DEPENDENT>
-<DEPENDENT Cell='$D$17' Evaluation='69.6386942426843'><SERIALIZE Dependent='Stream5_N'/><TRACE Dependent='69.6386942426843'/></DEPENDENT>
-<DEPENDENT Cell='$F$17' Evaluation='69.6386942426843'><SERIALIZE Dependent='(Stream6_N+Stream7_N)'/><TRACE Dependent='(1.38709651317853+68.2515977295058)'/></DEPENDENT>
-<DEPENDENT Cell='$D$18' Evaluation='1.38709651317853'><SERIALIZE Dependent='Stream6_N'/><TRACE Dependent='1.38709651317853'/></DEPENDENT>
-<DEPENDENT Cell='$F$18' Evaluation='1.38709651317838'><SERIALIZE Dependent='(SplitterEff*Stream5_N)'/><TRACE Dependent='(0.0199184738924667*69.6386942426843)'/></DEPENDENT>
-<DEPENDENT Cell='$H$14' Evaluation='295.291525623243'><SERIALIZE Dependent='(Stream1_H+Stream7_H)'/><TRACE Dependent='(94.9989508147237+200.292574808519)'/></DEPENDENT>
-<DEPENDENT Cell='$J$14' Evaluation='295.291525623243'><SERIALIZE Dependent='Stream2_H'/><TRACE Dependent='295.291525623243'/></DEPENDENT>
-<DEPENDENT Cell='$H$15' Evaluation='295.291525623243'><SERIALIZE Dependent='Stream2_H'/><TRACE Dependent='295.291525623243'/></DEPENDENT>
-<DEPENDENT Cell='$J$15' Evaluation='295.291525623243'><SERIALIZE Dependent='(Stream3_H+(3*ReactorEff))'/><TRACE Dependent='(204.363177422593+(3*30.3094494002168))'/></DEPENDENT>
-<DEPENDENT Cell='$H$16' Evaluation='204.363177422593'><SERIALIZE Dependent='Stream3_H'/><TRACE Dependent='204.363177422593'/></DEPENDENT>
-<DEPENDENT Cell='$J$16' Evaluation='204.363177422593'><SERIALIZE Dependent='Stream5_H'/><TRACE Dependent='204.363177422593'/></DEPENDENT>
-<DEPENDENT Cell='$H$17' Evaluation='204.363177422593'><SERIALIZE Dependent='Stream5_H'/><TRACE Dependent='204.363177422593'/></DEPENDENT>
-<DEPENDENT Cell='$J$17' Evaluation='204.363177422593'><SERIALIZE Dependent='(Stream6_H+Stream7_H)'/><TRACE Dependent='(4.07060261407304+200.292574808519)'/></DEPENDENT>
-<DEPENDENT Cell='$H$18' Evaluation='4.07060261407304'><SERIALIZE Dependent='Stream6_H'/><TRACE Dependent='4.07060261407304'/></DEPENDENT>
-<DEPENDENT Cell='$J$18' Evaluation='4.07060261407346'><SERIALIZE Dependent='(SplitterEff*Stream5_H)'/><TRACE Dependent='(0.0199184738924667*204.363177422593)'/></DEPENDENT>
-<DEPENDENT Cell='$L$14' Evaluation='20.1410831881556'><SERIALIZE Dependent='(Stream1_A+Stream7_A)'/><TRACE Dependent='(0.401179639610218+19.7399035485454)'/></DEPENDENT>
-<DEPENDENT Cell='$N$14' Evaluation='20.1410831881556'><SERIALIZE Dependent='Stream2_A'/><TRACE Dependent='20.1410831881556'/></DEPENDENT>
-<DEPENDENT Cell='$L$15' Evaluation='20.1410831881556'><SERIALIZE Dependent='Stream2_A'/><TRACE Dependent='20.1410831881556'/></DEPENDENT>
-<DEPENDENT Cell='$N$15' Evaluation='20.1410831881556'><SERIALIZE Dependent='Stream3_A'/><TRACE Dependent='20.1410831881556'/></DEPENDENT>
-<DEPENDENT Cell='$L$16' Evaluation='20.1410831881556'><SERIALIZE Dependent='Stream3_A'/><TRACE Dependent='20.1410831881556'/></DEPENDENT>
-<DEPENDENT Cell='$N$16' Evaluation='20.1410831881556'><SERIALIZE Dependent='Stream5_A'/><TRACE Dependent='20.1410831881556'/></DEPENDENT>
-<DEPENDENT Cell='$L$17' Evaluation='20.1410831881556'><SERIALIZE Dependent='Stream5_A'/><TRACE Dependent='20.1410831881556'/></DEPENDENT>
-<DEPENDENT Cell='$N$17' Evaluation='20.1410831881556'><SERIALIZE Dependent='(Stream6_A+Stream7_A)'/><TRACE Dependent='(0.401179639610217+19.7399035485454)'/></DEPENDENT>
-<DEPENDENT Cell='$L$18' Evaluation='0.401179639610217'><SERIALIZE Dependent='Stream6_A'/><TRACE Dependent='0.401179639610217'/></DEPENDENT>
-<DEPENDENT Cell='$N$18' Evaluation='0.401179639649278'><SERIALIZE Dependent='(SplitterEff*Stream5_A)'/><TRACE Dependent='(0.0199184738924667*20.1410831881556)'/></DEPENDENT>
-<DEPENDENT Cell='$P$15' Evaluation='0'><SERIALIZE Dependent='0'/><TRACE Dependent='0'/></DEPENDENT>
-<DEPENDENT Cell='$R$15' Evaluation='0'><SERIALIZE Dependent='(Stream3_NH-(2*ReactorEff))'/><TRACE Dependent='(60.6188988004337-(2*30.3094494002168))'/></DEPENDENT>
-<DEPENDENT Cell='$P$16' Evaluation='60.6188988004337'><SERIALIZE Dependent='Stream3_NH'/><TRACE Dependent='60.6188988004337'/></DEPENDENT>
-<DEPENDENT Cell='$R$16' Evaluation='60.6188988004337'><SERIALIZE Dependent='Stream4_NH'/><TRACE Dependent='60.6188988004337'/></DEPENDENT>
+<DEPENDENT Cell='$D$14' Evaluation='99.94814364290119'><SERIALIZE Dependent='(Stream1_N+Stream7_N)'/><TRACE Dependent='(31.696545913395386+68.2515977295058)'/></DEPENDENT>
+<DEPENDENT Cell='$F$14' Evaluation='99.94814364290117'><SERIALIZE Dependent='Stream2_N'/><TRACE Dependent='99.94814364290117'/></DEPENDENT>
+<DEPENDENT Cell='$D$15' Evaluation='99.94814364290117'><SERIALIZE Dependent='Stream2_N'/><TRACE Dependent='99.94814364290117'/></DEPENDENT>
+<DEPENDENT Cell='$F$15' Evaluation='99.94814364290119'><SERIALIZE Dependent='(Stream3_N+ReactorEff)'/><TRACE Dependent='(69.63869424268432+30.309449400216863)'/></DEPENDENT>
+<DEPENDENT Cell='$D$16' Evaluation='69.63869424268432'><SERIALIZE Dependent='Stream3_N'/><TRACE Dependent='69.63869424268432'/></DEPENDENT>
+<DEPENDENT Cell='$F$16' Evaluation='69.63869424268432'><SERIALIZE Dependent='Stream5_N'/><TRACE Dependent='69.63869424268432'/></DEPENDENT>
+<DEPENDENT Cell='$D$17' Evaluation='69.63869424268432'><SERIALIZE Dependent='Stream5_N'/><TRACE Dependent='69.63869424268432'/></DEPENDENT>
+<DEPENDENT Cell='$F$17' Evaluation='69.63869424268434'><SERIALIZE Dependent='(Stream6_N+Stream7_N)'/><TRACE Dependent='(1.3870965131785349+68.2515977295058)'/></DEPENDENT>
+<DEPENDENT Cell='$D$18' Evaluation='1.3870965131785349'><SERIALIZE Dependent='Stream6_N'/><TRACE Dependent='1.3870965131785349'/></DEPENDENT>
+<DEPENDENT Cell='$F$18' Evaluation='1.3870965131783841'><SERIALIZE Dependent='(SplitterEff*Stream5_N)'/><TRACE Dependent='(0.019918473892466777*69.63869424268432)'/></DEPENDENT>
+<DEPENDENT Cell='$H$14' Evaluation='295.29152562324316'><SERIALIZE Dependent='(Stream1_H+Stream7_H)'/><TRACE Dependent='(94.99895081472363+200.2925748085195)'/></DEPENDENT>
+<DEPENDENT Cell='$J$14' Evaluation='295.29152562324305'><SERIALIZE Dependent='Stream2_H'/><TRACE Dependent='295.29152562324305'/></DEPENDENT>
+<DEPENDENT Cell='$H$15' Evaluation='295.29152562324305'><SERIALIZE Dependent='Stream2_H'/><TRACE Dependent='295.29152562324305'/></DEPENDENT>
+<DEPENDENT Cell='$J$15' Evaluation='295.2915256232431'><SERIALIZE Dependent='(Stream3_H+(3*ReactorEff))'/><TRACE Dependent='(204.3631774225925+(3*30.309449400216863))'/></DEPENDENT>
+<DEPENDENT Cell='$H$16' Evaluation='204.3631774225925'><SERIALIZE Dependent='Stream3_H'/><TRACE Dependent='204.3631774225925'/></DEPENDENT>
+<DEPENDENT Cell='$J$16' Evaluation='204.3631774225925'><SERIALIZE Dependent='Stream5_H'/><TRACE Dependent='204.3631774225925'/></DEPENDENT>
+<DEPENDENT Cell='$H$17' Evaluation='204.3631774225925'><SERIALIZE Dependent='Stream5_H'/><TRACE Dependent='204.3631774225925'/></DEPENDENT>
+<DEPENDENT Cell='$J$17' Evaluation='204.36317742259254'><SERIALIZE Dependent='(Stream6_H+Stream7_H)'/><TRACE Dependent='(4.070602614073045+200.2925748085195)'/></DEPENDENT>
+<DEPENDENT Cell='$H$18' Evaluation='4.070602614073045'><SERIALIZE Dependent='Stream6_H'/><TRACE Dependent='4.070602614073045'/></DEPENDENT>
+<DEPENDENT Cell='$J$18' Evaluation='4.070602614073465'><SERIALIZE Dependent='(SplitterEff*Stream5_H)'/><TRACE Dependent='(0.019918473892466777*204.3631774225925)'/></DEPENDENT>
+<DEPENDENT Cell='$L$14' Evaluation='20.141083188155655'><SERIALIZE Dependent='(Stream1_A+Stream7_A)'/><TRACE Dependent='(0.40117963961021713+19.73990354854544)'/></DEPENDENT>
+<DEPENDENT Cell='$N$14' Evaluation='20.14108318815566'><SERIALIZE Dependent='Stream2_A'/><TRACE Dependent='20.14108318815566'/></DEPENDENT>
+<DEPENDENT Cell='$L$15' Evaluation='20.14108318815566'><SERIALIZE Dependent='Stream2_A'/><TRACE Dependent='20.14108318815566'/></DEPENDENT>
+<DEPENDENT Cell='$N$15' Evaluation='20.14108318815566'><SERIALIZE Dependent='Stream3_A'/><TRACE Dependent='20.14108318815566'/></DEPENDENT>
+<DEPENDENT Cell='$L$16' Evaluation='20.14108318815566'><SERIALIZE Dependent='Stream3_A'/><TRACE Dependent='20.14108318815566'/></DEPENDENT>
+<DEPENDENT Cell='$N$16' Evaluation='20.14108318815566'><SERIALIZE Dependent='Stream5_A'/><TRACE Dependent='20.14108318815566'/></DEPENDENT>
+<DEPENDENT Cell='$L$17' Evaluation='20.14108318815566'><SERIALIZE Dependent='Stream5_A'/><TRACE Dependent='20.14108318815566'/></DEPENDENT>
+<DEPENDENT Cell='$N$17' Evaluation='20.14108318815566'><SERIALIZE Dependent='(Stream6_A+Stream7_A)'/><TRACE Dependent='(0.4011796396102187+19.73990354854544)'/></DEPENDENT>
+<DEPENDENT Cell='$L$18' Evaluation='0.4011796396102187'><SERIALIZE Dependent='Stream6_A'/><TRACE Dependent='0.4011796396102187'/></DEPENDENT>
+<DEPENDENT Cell='$N$18' Evaluation='0.40117963964928'><SERIALIZE Dependent='(SplitterEff*Stream5_A)'/><TRACE Dependent='(0.019918473892466777*20.14108318815566)'/></DEPENDENT>
+<DEPENDENT Cell='$P$15' Evaluation='0.0'><SERIALIZE Dependent='0'/><TRACE Dependent='0'/></DEPENDENT>
+<DEPENDENT Cell='$R$15' Evaluation='0.0'><SERIALIZE Dependent='(Stream3_NH-(2*ReactorEff))'/><TRACE Dependent='(60.618898800433726-(2*30.309449400216863))'/></DEPENDENT>
+<DEPENDENT Cell='$P$16' Evaluation='60.618898800433726'><SERIALIZE Dependent='Stream3_NH'/><TRACE Dependent='60.618898800433726'/></DEPENDENT>
+<DEPENDENT Cell='$R$16' Evaluation='60.618898800433726'><SERIALIZE Dependent='Stream4_NH'/><TRACE Dependent='60.618898800433726'/></DEPENDENT>
 </DEPENDENTS>
-<RESULTS MeasurementCriticalValue='1.07331716652824' NumberResults='22' FixedVariables='0'>
-<RESULT Cell='Stream1_N' ReconciledValue='31.6965459133954' MeasuredValue='33' Solvability='Redundant' MeasuredTest='-4.34484695534871' ReconciledTest='-7.57135027880619' MeasuredTolerance='0.3' ReconciledTolerance='0.172156093511253'/>
-<RESULT Cell='Stream7_N' ReconciledValue='68.2515977295058' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.560282757524677'/>
-<RESULT Cell='Stream2_N' ReconciledValue='99.9481436429012' MeasuredValue='101' Solvability='Redundant' MeasuredTest='-1.05185635709883' ReconciledTest='-1.82240694852303' MeasuredTolerance='1' ReconciledTolerance='0.577179733621682'/>
-<RESULT Cell='Stream3_N' ReconciledValue='69.6386942426843' MeasuredValue='69' Solvability='Redundant' MeasuredTest='0.92564382997726' ReconciledTest='1.11738743874134' MeasuredTolerance='0.69' ReconciledTolerance='0.571596046760428'/>
-<RESULT Cell='ReactorEff' ReconciledValue='30.3094494002168' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.173260109102744'/>
-<RESULT Cell='Stream5_N' ReconciledValue='69.6386942426843' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.571596046760428'/>
-<RESULT Cell='Stream6_N' ReconciledValue='1.38709651317853' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.0160938791081549'/>
-<RESULT Cell='SplitterEff' ReconciledValue='0.0199184738924667' MeasuredValue='0.02' Solvability='Redundant' MeasuredTest='-0.40763053766631' ReconciledTest='-0.500997369503781' MeasuredTolerance='0.0002' ReconciledTolerance='0.000162727615943394'/>
-<RESULT Cell='Stream1_H' ReconciledValue='94.9989508147237' MeasuredValue='89' Solvability='Redundant' MeasuredTest='6.74039417384682' ReconciledTest='11.5383455610258' MeasuredTolerance='0.89' ReconciledTolerance='0.519914296464385'/>
-<RESULT Cell='Stream7_H' ReconciledValue='200.292574808519' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='2.00806730476841'/>
-<RESULT Cell='Stream2_H' ReconciledValue='295.291525623243' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='2.10000471902801'/>
-<RESULT Cell='Stream3_H' ReconciledValue='204.363177422593' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='2.04857822154716'/>
-<RESULT Cell='Stream5_H' ReconciledValue='204.363177422593' MeasuredValue='205' Solvability='Redundant' MeasuredTest='-0.310645159710969' ReconciledTest='-0.310860757333705' MeasuredTolerance='2.05' ReconciledTolerance='2.04857822154716'/>
-<RESULT Cell='Stream6_H' ReconciledValue='4.07060261407304' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.0526255978902071'/>
-<RESULT Cell='Stream1_A' ReconciledValue='0.401179639610218' MeasuredValue='0.4' Solvability='Redundant' MeasuredTest='0.294909902554472' ReconciledTest='0.361050270169059' MeasuredTolerance='0.004' ReconciledTolerance='0.00326724477914261'/>
-<RESULT Cell='Stream7_A' ReconciledValue='19.7399035485454' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.162098082048813'/>
-<RESULT Cell='Stream2_A' ReconciledValue='20.1410831881556' MeasuredValue='20.2' Solvability='Redundant' MeasuredTest='-0.294584059221901' ReconciledTest='-0.359922226661009' MeasuredTolerance='0.2' ReconciledTolerance='0.163693174469802'/>
-<RESULT Cell='Stream3_A' ReconciledValue='20.1410831881556' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.163693174469802'/>
-<RESULT Cell='Stream5_A' ReconciledValue='20.1410831881556' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.163693174469802'/>
-<RESULT Cell='Stream6_A' ReconciledValue='0.401179639610217' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.00326724477914258'/>
-<RESULT Cell='Stream3_NH' ReconciledValue='60.6188988004337' MeasuredValue='' Solvability='Observable' MeasuredTest='0' ReconciledTest='0' MeasuredTolerance='' ReconciledTolerance='0.346520218205488'/>
-<RESULT Cell='Stream4_NH' ReconciledValue='60.6188988004337' MeasuredValue='62' Solvability='Redundant' MeasuredTest='-2.22758257994565' ReconciledTest='-3.98562948712939' MeasuredTolerance='0.62' ReconciledTolerance='0.346520218205488'/>
+<RESULTS MeasurementCriticalValue='1.0733171665282435' NumberResults='22' FixedVariables='0'>
+<RESULT Cell='Stream7_A' ReconciledValue='19.73990354854544' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.16209808204881504'/>
+<RESULT Cell='SplitterEff' ReconciledValue='0.019918473892466777' MeasuredValue='0.02' Solvability='Redundant' MeasuredTest='-0.40763053766611906' ReconciledTest='-0.5009973695035489' MeasuredTolerance='2.0E-4' ReconciledTolerance='1.627276159433933E-4'/>
+<RESULT Cell='Stream7_H' ReconciledValue='200.2925748085195' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='2.0080673047684114'/>
+<RESULT Cell='Stream7_N' ReconciledValue='68.2515977295058' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.560282757524677'/>
+<RESULT Cell='ReactorEff' ReconciledValue='30.309449400216863' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.1732601091027438'/>
+<RESULT Cell='Stream3_N' ReconciledValue='69.63869424268432' MeasuredValue='69.0' Solvability='Redundant' MeasuredTest='0.9256438299772803' ReconciledTest='1.1173874387413636' MeasuredTolerance='0.69' ReconciledTolerance='0.5715960467604281'/>
+<RESULT Cell='Stream2_N' ReconciledValue='99.94814364290117' MeasuredValue='101.0' Solvability='Redundant' MeasuredTest='-1.0518563570988277' ReconciledTest='-1.8224069485230334' MeasuredTolerance='1.0' ReconciledTolerance='0.5771797336216825'/>
+<RESULT Cell='Stream5_N' ReconciledValue='69.63869424268432' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.5715960467604281'/>
+<RESULT Cell='Stream1_H' ReconciledValue='94.99895081472363' MeasuredValue='89.0' Solvability='Redundant' MeasuredTest='6.740394173846773' ReconciledTest='11.538345561025675' MeasuredTolerance='0.89' ReconciledTolerance='0.5199142964643854'/>
+<RESULT Cell='Stream3_H' ReconciledValue='204.3631774225925' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='2.0485782215471615'/>
+<RESULT Cell='Stream6_N' ReconciledValue='1.3870965131785349' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.016093879108154848'/>
+<RESULT Cell='Stream2_H' ReconciledValue='295.29152562324305' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='2.100004719028014'/>
+<RESULT Cell='Stream5_H' ReconciledValue='204.3631774225925' MeasuredValue='205.0' Solvability='Redundant' MeasuredTest='-0.31064515971096873' ReconciledTest='-0.31086075733370533' MeasuredTolerance='2.05' ReconciledTolerance='2.0485782215471615'/>
+<RESULT Cell='Stream1_A' ReconciledValue='0.40117963961021713' MeasuredValue='0.4' Solvability='Redundant' MeasuredTest='0.2949099025542773' ReconciledTest='0.3610502701688226' MeasuredTolerance='0.004' ReconciledTolerance='0.0032672447791425954'/>
+<RESULT Cell='Stream3_A' ReconciledValue='20.14108318815566' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.1636931744698035'/>
+<RESULT Cell='Stream6_H' ReconciledValue='4.070602614073045' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.05262559789020702'/>
+<RESULT Cell='Stream2_A' ReconciledValue='20.14108318815566' MeasuredValue='20.2' Solvability='Redundant' MeasuredTest='-0.2945840592217053' ReconciledTest='-0.3599222266607668' MeasuredTolerance='0.2' ReconciledTolerance='0.1636931744698035'/>
+<RESULT Cell='Stream5_A' ReconciledValue='20.14108318815566' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.16369317446980355'/>
+<RESULT Cell='Stream3_NH' ReconciledValue='60.618898800433726' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.34652021820548756'/>
+<RESULT Cell='Stream6_A' ReconciledValue='0.4011796396102187' MeasuredValue='null' Solvability='Observable' MeasuredTest='0.0' ReconciledTest='0.0' MeasuredTolerance='null' ReconciledTolerance='0.0032672447791426123'/>
+<RESULT Cell='Stream4_NH' ReconciledValue='60.618898800433726' MeasuredValue='62.0' Solvability='Redundant' MeasuredTest='-2.227582579945603' ReconciledTest='-3.9856294871293096' MeasuredTolerance='0.62' ReconciledTolerance='0.34652021820548756'/>
+<RESULT Cell='Stream1_N' ReconciledValue='31.696545913395386' MeasuredValue='33.0' Solvability='Redundant' MeasuredTest='-4.344846955348713' ReconciledTest='-7.571350278806186' MeasuredTolerance='0.3' ReconciledTolerance='0.17215609351125358'/>
 </RESULTS>
 </RECONCILIATION>

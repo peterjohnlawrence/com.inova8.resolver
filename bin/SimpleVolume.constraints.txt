@@ -1,6 +1,0 @@
-D_4_Feed;=abs_btm_mass;=;D_4_Product;= fat_oil_mass+fuel_gas_mass  
-J_4_Feed;=abs_ovhd_mass;=;J_4_Product;=(bypass_mass+treat_gas_mass)  
-J_6_Feed;=fat_oil_mass+condensate_mass;=;J_6_Product;=recycle_mass  
-T_5_Feed;=recycle_mass;=;T_5_Product;=lean_oil_mass+sep_ovhd_mass  
-T_3_Feed;=lean_oil_mass+sour_gas_mass;=;T_3_Product;=abs_btm_mass+abs_ovhd_mass  
-D_7_Feed;=sep_ovhd_mass+bypass_mass;=;D_7_Product;=acid_gas_mass+condensate_mass
