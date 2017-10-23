@@ -1,0 +1,4 @@
+$D$14;=$D$12 +$D$15
+$D$13;= acid_gas + condensate
+$D$12;=condensate + fat_oil -$D$15
+$D$15;=19

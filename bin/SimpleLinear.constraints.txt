@@ -1,0 +1,6 @@
+D_4_Feed;=(abs_btm);=;D_4_Product;= fat_oil+fuel_gas
+J_4_Feed;=abs_ovhd;=;J_4_Product;= SUM(bypass , treat_gas)
+J_6_Feed;=$D$14;=;J_6_Product;=recycle
+T_5_Feed;=lean_oil+ sep_ovhd;=;T_5_Product;=recycle
+T_3_Feed;=-(lean_oil + sour_gas);=;T_3_Product;= -(abs_btm + abs_ovhd)
+D_7_Feed;=bypass + sep_ovhd;=;D_7_Product;=$D$13
